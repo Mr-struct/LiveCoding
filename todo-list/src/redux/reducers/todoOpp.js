@@ -1,6 +1,7 @@
 import * as Actions from "../actions";
 
 const initState = [{ id: 0, value: "Hello" }];
+
 const todoOpp = (state = initState, action) => {
   switch (action.type) {
     case Actions.ADD_TODO:

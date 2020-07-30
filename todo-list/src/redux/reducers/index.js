@@ -1,6 +1,5 @@
-// import { combineReducers } from "redux";
-import todoSlice from "../../views/todo-view/todoListSlice";
-
-export default {
-  todoSlice,
-};
+import { combineReducers } from "redux";
+import todoOpp from "../reducers/todoOpp";
+export default combineReducers({
+  todoOpp,
+});
